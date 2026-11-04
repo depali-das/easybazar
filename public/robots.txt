@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+Disallow: /admin
+Disallow: /admin/
+Disallow: /checkout
+Disallow: /orders
+Disallow: /wishlist
+Disallow: /account
+Disallow: /cart
+Disallow: /notifications
+Disallow: /support
+Disallow: /support/
+Disallow: /track-order
+
+# After deployment, add: Sitemap: https://YOUR-REAL-DOMAIN/sitemap.xml
+# robots.txt is not an access-control mechanism; protect private data in the application/API.
